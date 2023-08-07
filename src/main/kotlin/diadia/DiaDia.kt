@@ -61,7 +61,7 @@ class DiaDia(io: IO) {
             parametro = console.leggiRiga()
         } while (parametro.isNullOrEmpty())
        // comandoCostruito.setParametro(parametro)
-        return false ciao ciao
+        return false ciao ciao cio
     }*/
 }
 
