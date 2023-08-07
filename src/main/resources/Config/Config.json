@@ -1,0 +1,17 @@
+{
+  "giocatore": {
+    "CFUDef": 30
+  },
+  "borsa": {
+    "PesoDef": 50
+  },
+  "labirinto": {
+    "LabDef": "src/main/resources/Labirinto/Labirinto1.txt"
+  },
+  "diaDia": {
+    "MessaggioDiBenvenuto": "src/main/resources/Messaggio.txt"
+  },
+  "stanza": {
+    "SogliaMagicaStandar": 3
+  }
+}

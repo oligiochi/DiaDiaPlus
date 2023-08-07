@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Borsa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Borsa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Giocatore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Giocatore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Partita.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Partita.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/Gestore/AbstractComando.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/Gestore/AbstractComando.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/BorsaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/BorsaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/GiocatoreTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/GiocatoreTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DiaDiaKT" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
+  <component name="Kotlin2JvmSerializationArguments">
+    <option name="serializationTarget" value="1.0" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": -1
+}]]></component>
+  <component name="ProjectId" id="2Snj1dSdkrRrZsgIMEP9V5njUoJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing DiaDiaKT&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oligi/Downloads/kotlinx.serialization-1.5.1.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main\kotlin" />
+      <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main\resources" />
+      <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src" />
+      <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="diadia" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="DiaDia.Ambienti.labirinto" />
+      <recent name="DiaDia.Ambienti.Stanze" />
+      <recent name="Const" />
+      <recent name="DiaDia" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StanzaTest">
+    <configuration name="GiocatoreTest.testGetCFU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diadia.Giocatore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaDia.Giocatore" />
+      <option name="MAIN_CLASS_NAME" value="diadia.Giocatore.GiocatoreTest" />
+      <option name="METHOD_NAME" value="testGetCFU" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiocatoreTest.testPrendiAttrezzoInesistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diadia.Giocatore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaDia.Giocatore" />
+      <option name="MAIN_CLASS_NAME" value="diadia.Giocatore.GiocatoreTest" />
+      <option name="METHOD_NAME" value="testPrendiAttrezzoInesistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StanzaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diadia.ambienti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaDia.Ambienti" />
+      <option name="MAIN_CLASS_NAME" value="diadia.ambienti.StanzaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StanzaTest" />
+        <item itemvalue="JUnit.GiocatoreTest.testGetCFU" />
+        <item itemvalue="JUnit.GiocatoreTest.testPrendiAttrezzoInesistente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="" />
+      <created>1689789028911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689789028911</updated>
+      <workItem from="1689789042382" duration="531000" />
+      <workItem from="1689789617833" duration="848000" />
+      <workItem from="1689835956870" duration="68000" />
+      <workItem from="1689922902535" duration="290000" />
+      <workItem from="1689923225572" duration="1040000" />
+      <workItem from="1689924298486" duration="108000" />
+      <workItem from="1689924426947" duration="829000" />
+      <workItem from="1689925371340" duration="192000" />
+      <workItem from="1689925564960" duration="110000" />
+      <workItem from="1689925676606" duration="93000" />
+      <workItem from="1689925790340" duration="501000" />
+      <workItem from="1689926309668" duration="1478000" />
+      <workItem from="1690036745462" duration="474000" />
+      <workItem from="1690037246130" duration="173000" />
+      <workItem from="1690037542977" duration="1148000" />
+      <workItem from="1690038716813" duration="1084000" />
+      <workItem from="1690039830500" duration="7738000" />
+      <workItem from="1690114861632" duration="148000" />
+      <workItem from="1690115028175" duration="7990000" />
+      <workItem from="1690138450495" duration="369000" />
+      <workItem from="1690138842595" duration="1137000" />
+      <workItem from="1690189468453" duration="3250000" />
+      <workItem from="1690281621840" duration="57000" />
+      <workItem from="1690281701454" duration="1818000" />
+      <workItem from="1690380874711" duration="416000" />
+      <workItem from="1690381585354" duration="3917000" />
+      <workItem from="1690450580278" duration="228000" />
+      <workItem from="1690451366103" duration="542000" />
+      <workItem from="1690451937702" duration="2654000" />
+      <workItem from="1690537032292" duration="5976000" />
+      <workItem from="1691405133847" duration="272000" />
+    </task>
+    <task id="LOCAL-00001" summary="json">
+      <option name="closed" value="true" />
+      <created>1690047596090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690047596090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="json">
+      <option name="closed" value="true" />
+      <created>1690469061917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690469061917</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
+      <option name="closed" value="true" />
+      <created>1691404259998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691404259998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="json" />
+    <MESSAGE value="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi" />
+    <option name="LAST_COMMIT_MESSAGE" value="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.nio.fs.WindowsPath" memberName="path" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

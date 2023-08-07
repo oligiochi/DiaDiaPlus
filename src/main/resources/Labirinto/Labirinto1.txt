@@ -1,0 +1,3 @@
+Stanze: Bagno StanzaBuia Inizio OggettiSbloccanti: spugna torcia candela, Atrio Fine
+Attrezzi: Bagno fiamma 5 lanterna 1, Atrio lubrificante 10
+Collegamenti: Bagno NORD Atrio
