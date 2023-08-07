@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Borsa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Borsa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Giocatore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Giocatore/Giocatore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Partita.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Partita.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/Gestore/AbstractComando.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/Gestore/AbstractComando.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/BorsaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/BorsaTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/GiocatoreTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/Giocatore/GiocatoreTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,42 +40,43 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": -1
 }]]></component>
   <component name="ProjectId" id="2Snj1dSdkrRrZsgIMEP9V5njUoJ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing DiaDiaKT&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oligi/Downloads/kotlinx.serialization-1.5.1.zip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "DiaDiaKt",
+    "last_opened_file_path": "C:/Users/oligi/Downloads/kotlinx.serialization-1.5.1.zip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main\kotlin" />
@@ -197,6 +189,7 @@
       <workItem from="1690451937702" duration="2654000" />
       <workItem from="1690537032292" duration="5976000" />
       <workItem from="1691405133847" duration="272000" />
+      <workItem from="1691405427834" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="json">
       <option name="closed" value="true" />
@@ -222,7 +215,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691404259998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
+      <option name="closed" value="true" />
+      <created>1691405593075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691405593075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
+      <option name="closed" value="true" />
+      <created>1691405662608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691405662608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
+      <option name="closed" value="true" />
+      <created>1691405716608</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691405716608</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
