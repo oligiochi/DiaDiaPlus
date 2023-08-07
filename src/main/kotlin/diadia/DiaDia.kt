@@ -1,9 +1,14 @@
 package diadia
 
+import diadia.controlli.gestore.AbstractComando
+import diadia.config.leggiDaFileJson
 import diadia.console.IO
+import diadia.console.IOConsole
+import diadia.util.getAbsolutePath
+import java.io.File
 
 class DiaDia(io: IO) {
-    /*private val partita: Partita
+    private val partita: Partita
     private val console: IOConsole
     //private val fabbrica: FabbricaDiComandi
 
@@ -13,8 +18,8 @@ class DiaDia(io: IO) {
         //fabbrica = FabbricaDiComandiRiflessiva()
     }
     fun gioca(){
-       // console.mostraMessaggio(DiaDia.MessaggioDiBenvenuto)
-        var comandoCostruito: AbstractComando?=null
+        console.mostraMessaggio(DiaDia.MessaggioDiBenvenuto)
+        val comandoCostruito: AbstractComando?=null
         var istruzione:String?
         do {
             istruzione=console.leggiRiga()
@@ -51,7 +56,8 @@ class DiaDia(io: IO) {
 
     }
     companion object {
-       // private const val MessaggioDiBenvenuto=
+        val config= leggiDaFileJson()
+        val MessaggioDiBenvenuto= File(getAbsolutePath(config!!.diaDiaConfig.messaggioDiBenvenuto)).readText()
     }
 
     private fun CambioParametro(console: IOConsole,stampa:String): Boolean {
@@ -61,7 +67,7 @@ class DiaDia(io: IO) {
             parametro = console.leggiRiga()
         } while (parametro.isNullOrEmpty())
        // comandoCostruito.setParametro(parametro)
-        return false ciao ciao cio
-    }*/
+        return false
+    }
 }
 

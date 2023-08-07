@@ -15,20 +15,21 @@ class Giocatore(private var borsa : Borsa , private var CFU : Int) {
     fun setCFU(c: Int) {
         this.CFU = c
     }
+    fun getDescrizione()="CFU rimasti: ${getCFU()}"
 
     fun prendiAttrezzo(attrezzo: String?, stanzaAttuale: Stanza): String {
-        if (attrezzo == null) return "Che attrezzo vuoi prendere?"
+        if (attrezzo == null || attrezzo==="") return "Che attrezzo vuoi prendere?"
         val prendere = stanzaAttuale.getAttrezzo(attrezzo)
-        if (prendere != null) {
+        return if (prendere != null) {
             if (this.getBorsa().addAttrezzo(prendere)) {
                 stanzaAttuale.removeAttrezzo(attrezzo)
-                return "Ho preso $prendere! Lo troverai nella tua Borsa ${this.getBorsa().pesoInRelazione()}"
-            } else return "La tua borsa è troppo pesante prova a lasciare qualche attrezzo a terra"
-        } else return "$attrezzo non esiste nella stanza"
+                "Ho preso $prendere! Lo troverai nella tua Borsa ${this.getBorsa().pesoInRelazione()}"
+            } else "La tua borsa è troppo pesante prova a lasciare qualche attrezzo a terra"
+        } else "$attrezzo non esiste nella stanza"
     }
 
     fun rimuoviAttrezzo(attrezzo: String?, stanzaAttuale: Stanza): String {
-        if (attrezzo == null) return "Che attrezzo vuoi posare?"
+        if (attrezzo == null || attrezzo==="") return "Che attrezzo vuoi posare?"
         val prendere = this.getBorsa().getAttrezzo(attrezzo)
         if (prendere != null) {
             if (stanzaAttuale.addAttrezzo(prendere)) {

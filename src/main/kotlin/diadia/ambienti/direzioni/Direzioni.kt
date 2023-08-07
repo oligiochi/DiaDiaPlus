@@ -11,5 +11,12 @@ enum class Direzioni {
         fun getopposta(a : Direzioni): Direzioni{
             return Direzioni.values()[(a.ordinal+2)%4]
         }
+        fun upperValuteOf(direzione:String):Direzioni?{
+            return try {
+                valueOf(direzione.uppercase())
+            }catch (e:IllegalArgumentException){
+                null
+            }
+        }
     }
 }

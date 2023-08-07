@@ -1,11 +1,10 @@
 package diadia.ambienti
 
-import diadia.ambienti.stanze.Stanza
 import diadia.Attrezzi.Attrezzo
+import diadia.ambienti.stanze.Stanza
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-
 
 
 class StanzaTest {
@@ -27,7 +26,7 @@ class StanzaTest {
             }
         }
         StanzaConNome = Stanza("Bagno")
-        StanzaConNome.impostaStanzaAdiacente("sud", StanzaPiena)
+        StanzaConNome.impostaStanzaAdiacente("SUD", StanzaPiena)
 
     }
 
@@ -71,7 +70,7 @@ class StanzaTest {
 
     @Test
     fun testImpostaStanzaAdiacente() {
-        assertEquals(StanzaPiena, StanzaConNome.getStanzaAdiacente("sud"))
+        assertEquals(StanzaPiena, StanzaConNome.getStanzaAdiacente("SUD"))
     }
 
     //Test del mettodo Add Attrezzo

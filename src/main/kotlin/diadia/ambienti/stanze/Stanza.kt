@@ -2,6 +2,7 @@ package diadia.ambienti.stanze
 
 import diadia.Attrezzi.Attrezzo
 import diadia.ambienti.direzioni.Direzioni
+import diadia.personaggi.AbstractPersonaggio
 
 open class Stanza(private var nome: String) {
 
@@ -10,25 +11,29 @@ open class Stanza(private var nome: String) {
     companion object {
         var oggettisbloccanti = mutableListOf<Attrezzo>()
         var direzzioniBloccate = mutableListOf<Direzioni>()
+        private lateinit var personaggio: AbstractPersonaggio
     }
-    //private val personaggio: Personaggio?=null
+
     constructor() : this("")
 
     fun impostaStanzaAdiacente(direzione : String , stanza : Stanza){
+        val direzioni=direzione.uppercase()
             try{
-                if(!stanzeAdiacenti.containsKey(Direzioni.valueOf(direzione))) {
-                    stanzeAdiacenti.put(Direzioni.valueOf(direzione),stanza)
+                if(!stanzeAdiacenti.containsKey(Direzioni.valueOf(direzioni))) {
+                    stanzeAdiacenti[Direzioni.valueOf(direzioni)] = stanza
                 }
-            }catch(_: IllegalArgumentException){println("non esiste nessuna direzione di nome $direzione")}
+            }catch(_: IllegalArgumentException){println("non esiste nessuna direzione di nome $direzioni")}
     }
     fun getStanzaAdiacente(direzione : String) : Stanza? {
-        try{        if(stanzeAdiacenti.containsKey(Direzioni.valueOf(direzione)))
-
-            return stanzeAdiacenti.get(Direzioni.valueOf(direzione))
-        }catch(_: IllegalArgumentException){println("non esiste nessuna direzione di nome $direzione")}
+        val direzioni=direzione.uppercase()
+        try{
+            if(stanzeAdiacenti.containsKey(Direzioni.valueOf(direzioni)))
+            return stanzeAdiacenti[Direzioni.valueOf(direzioni)]
+        }catch(_: IllegalArgumentException){println("non esiste nessuna direzione di nome $direzioni")}
         return null
     }
-
+    fun getPersonaggio()= personaggio
+    fun setPersonaggio(p:AbstractPersonaggio){ personaggio=p}
     fun getNumeroAttrezzi()=this.attrezzi.size
     fun getNome()=this.nome
     fun getNumeroStanzeAdiacenti()=this.stanzeAdiacenti.size

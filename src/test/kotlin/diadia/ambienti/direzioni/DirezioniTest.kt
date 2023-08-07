@@ -13,10 +13,10 @@ class DirezioniTest {
 
     @Test
     fun valueOf() {
-        assertEquals(Direzioni.NORD,Direzioni.valueOf("nord"))
-        assertEquals(Direzioni.SUD,Direzioni.valueOf("sud"))
-        assertEquals(Direzioni.EST,Direzioni.valueOf("est"))
-        assertEquals(Direzioni.OVEST,Direzioni.valueOf("ovest"))
+        assertEquals(Direzioni.NORD,Direzioni.upperValuteOf("nord"))
+        assertEquals(Direzioni.SUD,Direzioni.upperValuteOf("sud"))
+        assertEquals(Direzioni.EST,Direzioni.upperValuteOf("est"))
+        assertEquals(Direzioni.OVEST,Direzioni.upperValuteOf("ovest"))
     }
     @Test
     fun GetOpposta(){
