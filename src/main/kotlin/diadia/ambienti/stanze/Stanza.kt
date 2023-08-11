@@ -8,9 +8,9 @@ open class Stanza(private var nome: String) {
 
     private val attrezzi : MutableList<Attrezzo> = mutableListOf()
     private val stanzeAdiacenti : MutableMap<Direzioni, Stanza> = mutableMapOf()
+    var oggettisbloccanti = mutableListOf<Attrezzo>()
+    var direzzioniBloccate = mutableListOf<Direzioni>()
     companion object {
-        var oggettisbloccanti = mutableListOf<Attrezzo>()
-        var direzzioniBloccate = mutableListOf<Direzioni>()
         private lateinit var personaggio: AbstractPersonaggio
     }
 
@@ -55,10 +55,10 @@ open class Stanza(private var nome: String) {
     override fun toString(): String {
         val costruttore = StringBuilder()
         costruttore.append(this.nome)
-        costruttore.append("\nUscite:\n")
-        costruttore.append(this.getDirezioni().toString())
-        costruttore.append("\nAttrezzi nella stanza:\n")
-        costruttore.append(this.getListaDiAttrezzi().toString())
+        costruttore.append("\nUscite: ")
+        costruttore.append(this.getDirezioni().toString().filterNot { it == '[' || it == ']'})
+        costruttore.append("\nAttrezzi nella stanza: ")
+        costruttore.append(this.getListaDiAttrezzi().toString().filterNot { it == '[' || it == ']'})
         costruttore.filter {it.isLetterOrDigit() || it.isWhitespace()}
         return costruttore.toString()
     }

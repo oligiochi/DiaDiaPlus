@@ -1,7 +1,7 @@
 package diadia.ambienti.direzioni
 
 enum class Direzioni {
-    NORD, EST,SUD, OVEST;
+    NORD,EST,SUD,OVEST;
 
     fun getopposta(): Direzioni {
        return getopposta(this)

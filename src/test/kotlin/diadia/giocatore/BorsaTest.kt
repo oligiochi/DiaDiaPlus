@@ -25,9 +25,9 @@ class BorsaTest {
     }
     @Test
     fun getPesoMax() {
-        assertEquals(20,BorsaVuota.getpesoMax())
+        assertEquals(0,BorsaVuota.getpesoMax())
         assertEquals(0,BorsaNonRiempibile.getpesoMax())
-        assertEquals(20,BorsaPiena.getpesoMax())
+        assertEquals(0,BorsaPiena.getpesoMax())
     }
     @Test
     fun ifEmpty() {

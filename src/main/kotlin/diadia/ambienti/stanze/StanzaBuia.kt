@@ -10,7 +10,7 @@ class StanzaBuia(private var nome:String):Stanza(nome) {
         oggettisbloccanti.add(attrezzo)
     }
     override fun getDescrizione(): String {
-        if(oggettisbloccanti.any { elemento -> elemento in this.getListaDiAttrezzi()}){
+        if(oggettisbloccanti.none { it in this.getListaDiAttrezzi()}){
             return "qui c'è un buio pesto"
         }
         return toString()

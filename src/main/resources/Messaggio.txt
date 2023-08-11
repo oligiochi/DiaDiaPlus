@@ -1,9 +1,9 @@
-"Ti trovi nell'Universita', ma oggi e' diversa dal solito\n" +
-                "Meglio andare al piu' presto in biblioteca a studiare. Ma dov'e'?\\\n" +
-                "I locali sono popolati da strani personaggi, alcuni amici, altri... chissa!\n" +
-                "Ci sono attrezzi che potrebbero servirti nell'impresa:\n" +
-                "puoi raccoglierli, usarli, posarli quando ti sembrano inutili... ma fai attenzione al peso!\n" +
-                "puoi anche regalarli se pensi che possano ingraziarti qualcuno\n" +
-                "Ti trovi nell'atrio e la tua borsa è vuota, puoi andare nella direzione che vuoi\n" +
-                "in fondo alla stanza vedi una lanterna il suo peso è 3kg.\n" +
-                "Per conoscere le istruzioni usa il comando 'aiuto'"
+Ti trovi nell'Universita', ma oggi e' diversa dal solito
+Meglio andare al piu' presto in biblioteca a studiare. Ma dov'e'?
+I locali sono popolati da strani personaggi, alcuni amici, altri... chissa!
+Ci sono attrezzi che potrebbero servirti nell'impresa:
+puoi raccoglierli, usarli, posarli quando ti sembrano inutili... ma fai attenzione al peso!
+puoi anche regalarli se pensi che possano ingraziarti qualcuno
+Ti trovi nell'atrio e la tua borsa è vuota, puoi andare nella direzione che vuoi
+in fondo alla stanza vedi una lanterna il suo peso è 3kg.
+Per conoscere le istruzioni usa il comando 'aiuto'

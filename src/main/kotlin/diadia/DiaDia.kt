@@ -1,29 +1,25 @@
 package diadia
 
-import diadia.controlli.gestore.AbstractComando
 import diadia.config.leggiDaFileJson
 import diadia.console.IO
 import diadia.console.IOConsole
+import diadia.controlli.gestore.AbstractComando
+import diadia.controlli.gestore.FabbricaDiComandi
+import diadia.controlli.gestore.FabbricaDiComandiRiflessiva
 import diadia.util.getAbsolutePath
 import java.io.File
 
 class DiaDia(io: IO) {
-    private val partita: Partita
-    private val console: IOConsole
-    //private val fabbrica: FabbricaDiComandi
-
-    init {
-        partita = Partita()
-        console = io as IOConsole
-        //fabbrica = FabbricaDiComandiRiflessiva()
-    }
+    private val partita: Partita = Partita()
+    private val console: IOConsole= io as IOConsole
+    private val fabbrica: FabbricaDiComandi= FabbricaDiComandiRiflessiva()
+     lateinit var comandoCostruito: AbstractComando
     fun gioca(){
-        console.mostraMessaggio(DiaDia.MessaggioDiBenvenuto)
-        val comandoCostruito: AbstractComando?=null
+        console.mostraMessaggio(MessaggioDiBenvenuto)
         var istruzione:String?
         do {
             istruzione=console.leggiRiga()
-            //comandoCostruito = fabbrica.costruisciComando(istruzione)
+            comandoCostruito = fabbrica.costruisciComando(istruzione)
         }while (!processaIstruzione(comandoCostruito, console) && !partita.isFinita())
         if (partita.getPlayer().getCFU() == 0) {
             console.mostraMessaggio("\nOh no hai perso mi dispiace")
@@ -66,7 +62,7 @@ class DiaDia(io: IO) {
             console.mostraMessaggio(stampa)
             parametro = console.leggiRiga()
         } while (parametro.isNullOrEmpty())
-       // comandoCostruito.setParametro(parametro)
+        comandoCostruito.setParametro(parametro)
         return false
     }
 }

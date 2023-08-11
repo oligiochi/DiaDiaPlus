@@ -5,9 +5,12 @@ import diadia.config.leggiDaFileJson
 
 
 class StanzaMagica(private var nome:String):Stanza(nome){
-    val config= leggiDaFileJson()
+    companion object {
+        val config= leggiDaFileJson()
+    }
+
     var contatoreAttrezziPosati=0
-    var soglie=config!!.StanzaConfig.SogliaMagicaStandar
+    private var soglie=config!!.stanzaConfig.sogliaMagicaStandar
     constructor(nome:String,soglia:Int):this(nome){
         soglie=soglia
     }

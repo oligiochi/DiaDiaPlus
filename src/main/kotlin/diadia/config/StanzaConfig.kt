@@ -3,5 +3,5 @@ import com.google.gson.annotations.SerializedName
 
 data class StanzaConfig(
     @SerializedName("SogliaMagicaStandar")
-    val SogliaMagicaStandar: Int
+    val sogliaMagicaStandar: Int
 )

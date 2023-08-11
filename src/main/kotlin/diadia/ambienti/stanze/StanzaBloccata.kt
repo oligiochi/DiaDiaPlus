@@ -17,8 +17,8 @@ class StanzaBloccata(private var nome:String):Stanza(nome) {
     }
 
     override fun getDirezioni(): MutableSet<Direzioni> {
-        if(getListaDiAttrezzi().any { ele->ele in oggettisbloccanti })
-        return super.getDirezioni().filterNot { direzzioniBloccate.any { ele->ele in super.getDirezioni()} }.toMutableSet()
-        return super.getDirezioni()
+        return if(getListaDiAttrezzi().none { it in oggettisbloccanti })
+        super.getDirezioni().filterNot { it in direzzioniBloccate }.toMutableSet()
+        else super.getDirezioni()
     }
 }

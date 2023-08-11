@@ -4,28 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoAiuto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoFine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoIteragisci.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoNonValido.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoPosa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoPrendi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoRegala.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoSaluta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/comandi/ComandoVai.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/controlli/comandi/ComandoAiutoTest.kt" afterDir="false" />
+    <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="c">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/controlli/comandi/ComandoFineTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/controlli/comandi/ComandoInfoTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/direzioni/Direzioni.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/direzioni/Direzioni.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/Stanza.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/Stanza.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/ComandoAiuto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/comandi/Gestore/AbstractComando.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/AbstractComando.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/giocatore/Giocatore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/giocatore/Giocatore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/ambienti/StanzaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/ambienti/StanzaTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/ambienti/direzioni/DirezioniTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/ambienti/direzioni/DirezioniTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBloccata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBloccata.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBuia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBuia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaMagica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaMagica.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/BorsaConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/BorsaConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/ConfigBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/ConfigBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Messaggio.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messaggio.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,9 +59,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2Snj1dSdkrRrZsgIMEP9V5njUoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,7 +85,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oligi/OneDrive/Documenti/coding/DiaDiaPlus/src/main/kotlin/diadia/controlli/gestore&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oligi/OneDrive/Documenti/coding/DiaDiaPlus/src/test/kotlin/diadia/controlli/comandi&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,12 +95,13 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\test\kotlin\diadia\controlli\comandi" />
       <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main\kotlin\diadia\controlli\gestore" />
       <recent name="C:\Users\oligi\OneDrive\Documenti\coding\DiaDiaPlus\src\main\kotlin\diadia\controlli\comandi" />
     </key>
@@ -129,8 +128,8 @@
       <recent name="diadia.controlli.comandi" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComandoAiutoTest.esegui">
-    <configuration name="ComandoAiutoTest.esegui" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="ComandoInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -139,81 +138,74 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="diadia.controlli.comandi" />
-      <option name="MAIN_CLASS_NAME" value="diadia.controlli.comandi.ComandoAiutoTest" />
-      <option name="METHOD_NAME" value="esegui" />
+      <option name="MAIN_CLASS_NAME" value="diadia.controlli.comandi.ComandoInfoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComandoInfoTest.testComandoInfoConParametroStanzaBloccataConOggetti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diadia.controlli.comandi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diadia.controlli.comandi" />
+      <option name="MAIN_CLASS_NAME" value="diadia.controlli.comandi.ComandoInfoTest" />
+      <option name="METHOD_NAME" value="testComandoInfoConParametroStanzaBloccataConOggetti" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirezioniTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComandoInfoTest.testComandoInfoConParametroStanzaBloccataSenzaOggetti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diadia.ambienti.direzioni.*" />
+          <option name="PATTERN" value="diadia.controlli.comandi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diadia.ambienti.direzioni" />
-      <option name="MAIN_CLASS_NAME" value="diadia.ambienti.direzioni.DirezioniTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirezioniTest.valueOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diadia.ambienti.direzioni.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="diadia.ambienti.direzioni" />
-      <option name="MAIN_CLASS_NAME" value="diadia.ambienti.direzioni.DirezioniTest" />
-      <option name="METHOD_NAME" value="valueOf" />
+      <option name="PACKAGE_NAME" value="diadia.controlli.comandi" />
+      <option name="MAIN_CLASS_NAME" value="diadia.controlli.comandi.ComandoInfoTest" />
+      <option name="METHOD_NAME" value="testComandoInfoConParametroStanzaBloccataSenzaOggetti" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LabirintoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComandoInfoTest.testComandoInfoConParametroStanzaMagicaConOggetti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diadia.ambienti.labirinto.*" />
+          <option name="PATTERN" value="diadia.controlli.comandi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diadia.ambienti.labirinto" />
-      <option name="MAIN_CLASS_NAME" value="diadia.ambienti.labirinto.LabirintoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="diadia.controlli.comandi" />
+      <option name="MAIN_CLASS_NAME" value="diadia.controlli.comandi.ComandoInfoTest" />
+      <option name="METHOD_NAME" value="testComandoInfoConParametroStanzaMagicaConOggetti" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StanzaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diadia.ambienti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DiaDia.Ambienti" />
-      <option name="MAIN_CLASS_NAME" value="diadia.ambienti.StanzaTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diadia.MainKt" />
+      <module name="main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComandoAiutoTest.esegui" />
-        <item itemvalue="JUnit.DirezioniTest.valueOf" />
-        <item itemvalue="JUnit.DirezioniTest" />
-        <item itemvalue="JUnit.LabirintoTest" />
-        <item itemvalue="JUnit.StanzaTest" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.ComandoInfoTest.testComandoInfoConParametroStanzaBloccataSenzaOggetti" />
+        <item itemvalue="JUnit.ComandoInfoTest.testComandoInfoConParametroStanzaBloccataConOggetti" />
+        <item itemvalue="JUnit.ComandoInfoTest" />
+        <item itemvalue="JUnit.ComandoInfoTest.testComandoInfoConParametroStanzaMagicaConOggetti" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +253,14 @@
       <workItem from="1691419690175" duration="4000" />
       <workItem from="1691428079752" duration="88000" />
       <workItem from="1691428189785" duration="124000" />
-      <workItem from="1691428317035" duration="6574000" />
+      <workItem from="1691428317035" duration="7238000" />
+      <workItem from="1691498038299" duration="7208000" />
+      <workItem from="1691647884776" duration="66000" />
+      <workItem from="1691649509973" duration="72000" />
+      <workItem from="1691649594392" duration="138000" />
+      <workItem from="1691649811780" duration="2240000" />
+      <workItem from="1691737281163" duration="267000" />
+      <workItem from="1691737570159" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="json">
       <option name="closed" value="true" />
@@ -327,7 +326,47 @@
       <option name="project" value="LOCAL" />
       <updated>1691405920402</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="aggiunti i comandi bisogna modificare diadia e il generatore di labirinti e fare la fabrica di comandi poi piccoli aggiustamenti ed è fatta">
+      <option name="closed" value="true" />
+      <created>1691440623726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691440623726</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aggiunti i comandi bisogna modificare diadia e il generatore di labirinti e fare la fabrica di comandi poi piccoli aggiustamenti ed è fatta">
+      <option name="closed" value="true" />
+      <created>1691440647986</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691440647986</updated>
+    </task>
+    <task id="LOCAL-00011" summary="aggiunti i comandi bisogna modificare diadia e il generatore di labirinti e fare la fabrica di comandi poi piccoli aggiustamenti ed è fatta">
+      <option name="closed" value="true" />
+      <created>1691440680309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691440680309</updated>
+    </task>
+    <task id="LOCAL-00012" summary="aggiunti i comandi bisogna modificare diadia e il generatore di labirinti e fare la fabrica di comandi poi piccoli aggiustamenti ed è fatta">
+      <option name="closed" value="true" />
+      <created>1691440742915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691440742915</updated>
+    </task>
+    <task id="LOCAL-00013" summary="c">
+      <option name="closed" value="true" />
+      <created>1691440977999</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691440977999</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +387,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="json" />
     <MESSAGE value="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi" />
-    <option name="LAST_COMMIT_MESSAGE" value="finiti personaggi do to list fare l'aggiunta dei personaggi nelle stanze, migliorare il costruttore di labirinti, riscrivere DiaDia.kt, fare tutta la parte dei comandi" />
+    <MESSAGE value="aggiunti i comandi bisogna modificare diadia e il generatore di labirinti e fare la fabrica di comandi poi piccoli aggiustamenti ed è fatta" />
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,11 +398,88 @@
           <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/console/IOConsole.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/console/IOConsole.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/console/IOConsole.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/console/IOConsole.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt</url>
+          <line>26</line>
+          <properties class="diadia.giocatore.BorsaTest" method="getPesoMax">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt</url>
+          <line>5</line>
+          <properties myFieldName="sogliaMagicaStandar" myClassName="diadia.config.StanzaConfig" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/config/ConfigBuilder.kt</url>
+          <line>17</line>
+          <properties myFieldName="stanzaConfig" myClassName="diadia.config.ConfigBuilder" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="sun.nio.fs.WindowsPath" memberName="path" />
+        <PinnedItemInfo parentTag="diadia.ambienti.stanze.StanzaBuia" memberName="attrezzi" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
