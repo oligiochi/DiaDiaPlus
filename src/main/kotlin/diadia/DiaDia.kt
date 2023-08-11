@@ -27,7 +27,8 @@ class DiaDia(io: IO) {
         console.mostraMessaggio("Grazie di aver giocato!")
     }
     private fun processaIstruzione(Comando:AbstractComando?,console:IOConsole):Boolean {
-        when (val stampa = Comando?.esegui(partita)) {
+        val stampa = Comando?.esegui(partita)
+        when (stampa) {
             "Che attrezzo vuoi posare?" -> {
                 return CambioParametro(console, stampa)
             }
@@ -47,6 +48,9 @@ class DiaDia(io: IO) {
         if (partita.vinta()) {
             console.mostraMessaggio("WOW HAI VINTO!")
             return true
+        }
+        if (stampa != null) {
+            console.mostraMessaggio(stampa)
         }
             return false
 

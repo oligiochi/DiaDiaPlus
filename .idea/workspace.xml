@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e6a5b1-94c3-4111-bac4-2fd5f2a85ea2" name="Changes" comment="c">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/controlli/comandi/ComandoFineTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/controlli/comandi/ComandoInfoTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/DiaDia.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/direzioni/Direzioni.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/direzioni/Direzioni.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/Stanza.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/Stanza.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBloccata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBloccata.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBuia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaBuia.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaMagica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/ambienti/stanze/StanzaMagica.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/BorsaConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/BorsaConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/ConfigBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/ConfigBuilder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Messaggio.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messaggio.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,6 +247,18 @@
       <workItem from="1691649811780" duration="2240000" />
       <workItem from="1691737281163" duration="267000" />
       <workItem from="1691737570159" duration="83000" />
+      <workItem from="1691737689068" duration="129000" />
+      <workItem from="1691737840737" duration="137000" />
+      <workItem from="1691737995495" duration="110000" />
+      <workItem from="1691738130700" duration="62000" />
+      <workItem from="1691738270525" duration="74000" />
+      <workItem from="1691738371066" duration="111000" />
+      <workItem from="1691738505003" duration="753000" />
+      <workItem from="1691762958468" duration="90000" />
+      <workItem from="1691763151095" duration="116000" />
+      <workItem from="1691763294852" duration="140000" />
+      <workItem from="1691763574738" duration="252000" />
+      <workItem from="1691763900458" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="json">
       <option name="closed" value="true" />
@@ -366,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691440977999</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="c">
+      <option name="closed" value="true" />
+      <created>1691737756211</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737756211</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,6 +459,101 @@
           <line>11</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/test/kotlin/diadia/giocatore/BorsaTest.kt</url>
           <line>26</line>
@@ -461,6 +562,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>5</line>
+          <properties class="diadia.controlli.gestore.FabbricaDiComandiRiflessiva" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/controlli/gestore/FabbricaDiComandiRiflessiva.kt</url>
+          <line>6</line>
+          <properties class="diadia.controlli.gestore.FabbricaDiComandiRiflessiva" method="costruisciComando">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-field">
           <url>file://$PROJECT_DIR$/src/main/kotlin/diadia/config/StanzaConfig.kt</url>
