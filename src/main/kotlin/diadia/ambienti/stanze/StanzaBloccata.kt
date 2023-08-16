@@ -9,10 +9,10 @@ class StanzaBloccata(private var nome:String):Stanza(nome) {
         oggettisbloccanti.addAll(attrezziBloccanti)
         direzzioniBloccate.addAll(direzioniBloccate)
     }
-    override fun addoggettisbloccante(attrezzo: Attrezzo){
+    fun addOggettiSbloccante(attrezzo: Attrezzo){
         oggettisbloccanti.add(attrezzo)
     }
-    override fun addDirezzionibloccante(string: String){
+    fun addDirezzionibloccante(string: String){
         direzzioniBloccate.add(Direzioni.valueOf(string.uppercase()))
     }
 

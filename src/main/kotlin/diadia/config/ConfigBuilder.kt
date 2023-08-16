@@ -15,7 +15,9 @@ data class ConfigBuilder(
     @SerializedName("labirinto")
     val labirintoConfig: LabirintoConfig,
     @SerializedName("stanza")
-    val stanzaConfig: StanzaConfig
+    val stanzaConfig: StanzaConfig,
+    @SerializedName("personaggi")
+    val personaggiConfig: PersonaggiConfig
 )
 fun leggiDaFileJson(): ConfigBuilder? {
     val gson = Gson()

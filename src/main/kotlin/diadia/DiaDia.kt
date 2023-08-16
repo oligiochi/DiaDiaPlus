@@ -13,7 +13,7 @@ class DiaDia(io: IO) {
     private val partita: Partita = Partita()
     private val console: IOConsole= io as IOConsole
     private val fabbrica: FabbricaDiComandi= FabbricaDiComandiRiflessiva()
-     lateinit var comandoCostruito: AbstractComando
+     private lateinit var comandoCostruito: AbstractComando
     fun gioca(){
         console.mostraMessaggio(MessaggioDiBenvenuto)
         var istruzione:String?
@@ -26,22 +26,22 @@ class DiaDia(io: IO) {
         }
         console.mostraMessaggio("Grazie di aver giocato!")
     }
-    private fun processaIstruzione(Comando:AbstractComando?,console:IOConsole):Boolean {
-        val stampa = Comando?.esegui(partita)
+    private fun processaIstruzione(comando:AbstractComando, console:IOConsole):Boolean {
+        var stampa = comando.esegui(partita)
         when (stampa) {
             "Che attrezzo vuoi posare?" -> {
-                return CambioParametro(console, stampa)
+                stampa=cambioParametro(console, stampa)
             }
 
             "Che attrezzo vuoi prendere?" -> {
-                return CambioParametro(console, stampa)
+                stampa=cambioParametro(console, stampa)
             }
 
             "Dove vuoi andare?" -> {
-                return CambioParametro(console, stampa)
+                stampa=cambioParametro(console, stampa)
             }
             "Su cosa vuoi avere le informazioni?"->{
-                return CambioParametro(console, stampa)
+                stampa=cambioParametro(console, stampa)
             }
             "Grazie di aver giocato!" -> return true
         }
@@ -49,9 +49,7 @@ class DiaDia(io: IO) {
             console.mostraMessaggio("WOW HAI VINTO!")
             return true
         }
-        if (stampa != null) {
-            console.mostraMessaggio(stampa)
-        }
+        console.mostraMessaggio(stampa)
             return false
 
     }
@@ -60,14 +58,14 @@ class DiaDia(io: IO) {
         val MessaggioDiBenvenuto= File(getAbsolutePath(config!!.diaDiaConfig.messaggioDiBenvenuto)).readText()
     }
 
-    private fun CambioParametro(console: IOConsole,stampa:String): Boolean {
+    private fun cambioParametro(console: IOConsole, stampa:String): String {
         var parametro: String?
         do {
             console.mostraMessaggio(stampa)
             parametro = console.leggiRiga()
         } while (parametro.isNullOrEmpty())
         comandoCostruito.setParametro(parametro)
-        return false
+        return comandoCostruito.esegui(partita)
     }
 }
 

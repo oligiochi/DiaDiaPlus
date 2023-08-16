@@ -12,6 +12,28 @@
     "MessaggioDiBenvenuto": "src/main/resources/Messaggio.txt"
   },
   "stanza": {
-    "SogliaMagicaStandar": 3
+    "StanzaBuia":{
+      "OggettiSbloccantiDef": ["torcia", "Lumino", "accendino"]
+    },
+    "StanzaBloccata":{
+      "OggettiSbloccantiDef": ["chiave", "passePartout", "lancia termica"]
+    },
+    "StanzaMagica": {
+      "Soglia": 3
+    }
+  },
+  "personaggi": {
+    "Mago": {
+      "Nome": "Merlino",
+      "Presentazione": "Mi piace fare magie gioca con me e lo scoprirai"
+    },
+    "Strega": {
+      "Nome": "Wendy",
+      "Presentazione": "Hai fatto bene a salutarmi non te ne pentirai"
+    },
+    "Cane": {
+      "Nome": "Wof Wof Wof Wof...WofWof",
+      "Presentazione": "Wof Wof Wof Wof...WofWof"
+    }
   }
 }

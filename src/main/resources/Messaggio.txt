@@ -1,9 +1,5 @@
-Ti trovi nell'Universita', ma oggi e' diversa dal solito
-Meglio andare al piu' presto in biblioteca a studiare. Ma dov'e'?
-I locali sono popolati da strani personaggi, alcuni amici, altri... chissa!
-Ci sono attrezzi che potrebbero servirti nell'impresa:
-puoi raccoglierli, usarli, posarli quando ti sembrano inutili... ma fai attenzione al peso!
-puoi anche regalarli se pensi che possano ingraziarti qualcuno
-Ti trovi nell'atrio e la tua borsa è vuota, puoi andare nella direzione che vuoi
-in fondo alla stanza vedi una lanterna il suo peso è 3kg.
-Per conoscere le istruzioni usa il comando 'aiuto'
+Nell'atmosfera carica di mistero dell'Università, oggi mutata in modi inaspettati, ti trovi nell'atrio centrale, un crocevia di possibilità e incertezze. La biblioteca, luogo di sapere ancestrale e rifugio dalla confusione, chiama il tuo nome con un sussurro appena percettibile.
+Gli ambienti sono popolati da figure enigmatiche: alcuni ti sorridono con familiarità, mentre altri sembrano sfuggirti dalle dita della memoria. Amici o sconosciuti, le loro intenzioni rimangono celate nelle pieghe del tempo e dello spazio.
+La tua borsa è vuota, un contenitore di opportunità e misteri. Ogni oggetto che raccogli potrebbe rivelarsi un alleato nelle sfide che incontrerai, ma fai attenzione al loro peso. Puoi raccoglierli, usarli per sbloccare nuovi percorsi o risolvere enigmi, e persino regalarli per guadagnare favore con coloro che incroci la tua strada.
+E ora, ti trovi di fronte a una scelta cruciale. Puoi dirigerTi verso la biblioteca, culla di conoscenza, o esplorare le stanze circostanti per sondare i segreti che si celano in ogni angolo. Il cammino che intraprenderai, le decisioni che prenderai e gli oggetti che raccoglierai plasmeranno il tuo percorso in questo mondo carico di enigmi.
+Se hai bisogno di orientamento, non esitare a chiamare il comando 'aiuto', una guida che potrebbe rivelare dettagli preziosi sui tuoi prossimi passi. Avanza con curiosità e determinazione, poiché l'Università tiene in serbo un'esperienza che si dipana come un antico pergameno, pronto a rivelare i suoi segreti a coloro che osano sfidare l'ignoto.

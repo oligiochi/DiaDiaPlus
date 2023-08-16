@@ -8,7 +8,7 @@ class Attrezzo(private var nome:String, private var peso:Int) : Comparable<Attre
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         val that=other as Attrezzo
-        return this.nome.lowercase().equals(that.nome.lowercase())
+        return this.nome.lowercase() == that.nome.lowercase()
     }
 
     override fun hashCode(): Int {

@@ -9,8 +9,8 @@ class StanzaMagica(private var nome:String):Stanza(nome){
         val config= leggiDaFileJson()
     }
 
-    var contatoreAttrezziPosati=0
-    private var soglie=config!!.stanzaConfig.sogliaMagicaStandar
+    private var contatoreAttrezziPosati=0
+    private var soglie=config!!.stanzaConfig.stanzaMagicaConfig.soglia
     constructor(nome:String,soglia:Int):this(nome){
         soglie=soglia
     }

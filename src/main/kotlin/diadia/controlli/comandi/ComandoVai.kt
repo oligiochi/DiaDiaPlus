@@ -6,6 +6,7 @@ import diadia.controlli.gestore.AbstractComando
 
 class ComandoVai: AbstractComando() {
     override fun esegui(partita: Partita): String {
+        if(getParametro()==="") return "Dove vuoi andare?"
         val prossimaStanza= partita.getStanzaCorrente().getStanzaAdiacente(getParametro())
         return if (prossimaStanza == null)
             "Direzione inesistente\n${partita.getStanzaCorrente().getDescrizione()}"

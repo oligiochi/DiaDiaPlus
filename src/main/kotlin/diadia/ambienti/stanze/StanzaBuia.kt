@@ -6,7 +6,7 @@ class StanzaBuia(private var nome:String):Stanza(nome) {
     constructor(nome: String,vararg attrezzo: Attrezzo):this(nome){
         oggettisbloccanti.addAll(attrezzo)
     }
-    override fun addoggettisbloccante(attrezzo: Attrezzo){
+    fun addOggettiSbloccante(attrezzo: Attrezzo){
         oggettisbloccanti.add(attrezzo)
     }
     override fun getDescrizione(): String {
