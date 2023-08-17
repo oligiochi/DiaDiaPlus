@@ -43,9 +43,9 @@ class DiaDia(io: IO) {
             "Su cosa vuoi avere le informazioni?"->{
                 stampa=cambioParametro(console, stampa)
             }
-            "Grazie di aver giocato!" -> return true
+            "Grazie Di Aver Giocato" -> return true
         }
-        if (partita.vinta()) {
+        if (partita.isFinita()) {
             console.mostraMessaggio("WOW HAI VINTO!")
             return true
         }

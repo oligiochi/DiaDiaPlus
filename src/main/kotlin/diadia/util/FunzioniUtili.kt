@@ -11,6 +11,7 @@ fun getClassesInPackage(packageName: String): Set<String> {
     val packag = File(packageName).listFiles()
     val names= mutableSetOf<String>()
     for (file in packag!!){
+        if(file.name.endsWith(".kt"))
         names.add(file.name.removeSuffix(".kt"))
     }
     return names

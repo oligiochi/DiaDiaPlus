@@ -18,7 +18,7 @@ class ComandoAiuto(): AbstractComando() {
             "fine" -> "Il comando fine ti permette di finire il gioco in qualsiasi momento\nsi scriva fine"
             "prendi" -> "Il comando prendi ti fa prendere un attrezzo che si trova nella stanza in cui ti trovi\nsi scriva prendi e il nome del attrezzo che vuoi prendere"
             "posa" -> "Il comando posa ti fa lasciare un attrezzo nella stanza in cui ti trovi\nsi scriva posa e il nome del attrezzo che vuoi prendere"
-            "info" -> "Il comando info ti permette di ricevere informazioni sulla stanza in qui ti trovi o sulla tua borsa con tutti gli oggetti con i relativi pesi\nsi scriva info e una di queste opzioni [borsa stanza]"
+            "info" -> "Il comando info ti permette di ricevere informazioni sulla stanza in qui ti trovi o sulla tua borsa con tutti gli oggetti con i relativi pesi\nsi scriva info e una di queste opzioni ${ComandoInfo.listaDiInfo()}"
             else -> "non esiste il comando:\n${getParametro()}"
         }
     }
