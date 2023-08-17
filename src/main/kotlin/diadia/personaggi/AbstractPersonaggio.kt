@@ -24,8 +24,6 @@ abstract class AbstractPersonaggio(private var nome:String, private var presenta
     fun getOggettiPreferiti()=regaloPreferito
     fun haSalutato()=salutato
     fun setPresentazione(pres: String?) { if (pres != null) presentazione = pres }
-    open fun addRegalo(attrezzo: Attrezzo){}
-    open fun addOggettoPreferito(attrezzo: Attrezzo){}
     abstract fun agisci(partita: Partita): String
     abstract fun riceviRegalo(attrezzo: Attrezzo, partita: Partita): String
 

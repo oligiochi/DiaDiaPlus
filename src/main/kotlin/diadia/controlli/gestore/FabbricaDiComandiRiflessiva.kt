@@ -16,7 +16,7 @@ class FabbricaDiComandiRiflessiva:FabbricaDiComandi {
                 istruzzioni.addAll(arrayOf("",""))
         }
         try {
-            val nome=istruzzioni.first().replace(istruzzioni.first().first(),istruzzioni.first().first().uppercaseChar())
+            val nome="${istruzzioni.first().first().uppercase()}${istruzzioni.first().substring(1)}"
             comd=Class.forName("$base$nome").kotlin.primaryConstructor?.call() as AbstractComando
             comd.setParametro(istruzzioni[1])
         }catch (e:Exception){

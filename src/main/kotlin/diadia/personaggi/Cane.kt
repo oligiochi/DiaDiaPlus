@@ -19,18 +19,18 @@ class Cane(nome: String, presentazione: String): AbstractPersonaggio(nome, prese
     }
 
     override fun riceviRegalo(attrezzo: Attrezzo, partita: Partita): String {
-        return if (getOggettiPreferiti().contains(attrezzo)) {
+        return if (getOggettiPreferiti().any { it==attrezzo }) {
                 partita.getStanzaCorrente().addAttrezzo(getRegali().shuffled(Random(attrezzo.hashCode())).first())
                 "WOOOOOOF"
             } else {
                 agisci(partita)
             }
     }
-    override fun addRegalo(attrezzo: Attrezzo) {
+    fun addOggettoPosseduto(attrezzo: Attrezzo) {
         getRegali().add(attrezzo)
     }
 
-    override fun addOggettoPreferito(attrezzo: Attrezzo) {
+    fun addOggettoPreferito(attrezzo: Attrezzo) {
         getOggettiPreferiti().add(attrezzo)
     }
 }

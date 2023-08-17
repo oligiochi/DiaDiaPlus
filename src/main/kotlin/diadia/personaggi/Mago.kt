@@ -22,7 +22,7 @@ class Mago(nome: String, presentazione: String): AbstractPersonaggio(nome, prese
         }else "Purtroppo non posso aiutarti non ho trovato il tuo attrezzo neanche con l'aiuto della mia magia"
     }
 
-    override fun addRegalo(attrezzo: Attrezzo) {
+    fun addOggettoPosseduto(attrezzo: Attrezzo) {
         getRegali().add(attrezzo)
     }
 }

@@ -45,7 +45,11 @@ open class Stanza(private var nome: String) {
     open fun getDirezioni()=this.stanzeAdiacenti.keys
     fun getMapStanzeAdiacenti()=this.stanzeAdiacenti
     open fun addAttrezzo(attrezzo: Attrezzo)=this.attrezzi.add(attrezzo)
-    //open fun addOggettiSbloccante(attrezzo: Attrezzo){}
+    fun addAllAttrezzi(listAttrezzo: List<Attrezzo>){
+        for(la in listAttrezzo){
+            addAttrezzo(la)
+        }
+    }
     open fun setSoglia(int:Int){}
     fun getAttrezzo(attrezzo:String)=this.attrezzi.getOrNull(attrezzi.indexOf(Attrezzo(attrezzo,0)))
     fun removeAttrezzo(attrezzo:String): Attrezzo? {

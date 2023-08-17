@@ -1,6 +1,8 @@
 Stanze: Bagno StanzaBuia, Atrio Fine, Biblioteca Inizio, Studio StanzaBloccata
-Attrezzi: Bagno fiamma 5 lanterna 1 chiave 5, Atrio lubrificante 10, Biblioteca Spugna 2
+Attrezzi: Bagno fiamma 5 lanterna 1 chiave 5, Atrio lubrificante 10, Biblioteca Spugna 2 osso 10
 Collegamenti: Studio NORD Atrio, Biblioteca EST Bagno, Studio SUD Bagno
-Personaggi: Biblioteca Mago Giuseppe "src/main/resources/Labirinto/Personaggio/Presentazione.txt"
+Personaggi: Biblioteca Mago Giuseppe "src/main/resources/Labirinto/Personaggio/Presentazione.txt", Studio Cane doggo "wof wof"
 DirezioniBloccate: Studio nord ovest
 OggettiSbloccanti: Bagno spugna torcia candela, Studio chiave cacciavite
+OggettiPossedutiPersonaggi: Biblioteca bacchetta 2 chiave 4, Studio corda 1 palla 9
+OggettiPreferitiPersonaggi: Studio osso carne

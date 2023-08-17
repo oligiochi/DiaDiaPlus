@@ -33,7 +33,8 @@
     },
     "Cane": {
       "Nome": "Wof Wof Wof Wof...WofWof",
-      "Presentazione": "Wof Wof Wof Wof...WofWof"
+      "Presentazione": "Wof Wof Wof Wof...WofWof",
+      "OggettiPreferitiDef": ["osso","croccantini","giocatolo"]
     }
   }
 }
