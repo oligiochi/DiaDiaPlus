@@ -24,24 +24,25 @@ class Partita() {
      * @param stanzaCorrente
      */
     fun setStanzaCorrente(stanzaCorrente: Stanza) {
+        this.stanzaCorrente.setVisitata(true)
         this.stanzaCorrente = stanzaCorrente
     }
 
     /**
-     * mi restiruisce la stanza in cui si trova il giocatore
+     * Mi restiruisce la stanza in cui si trova il giocatore
      * @return stanza in cui si trova il giocatore
      */
     fun getStanzaCorrente()=stanzaCorrente
 
 
     /**
-     * Restituisce vero se e solo se la partita e' stata vinta
+     * Restituisce vero se e solo se la partita è stata vinta
      * @return vero se partita vinta
      */
-    fun vinta()=getStanzaCorrente() === this.lab.getUscita()
+    private fun vinta()=getStanzaCorrente() === this.lab.getUscita()
 
     /**
-     * Restituisce vero se e solo se la partita e' finita
+     * Restituisce vero se e solo se la partita è finita
      * @return vero se partita finita
      */
     fun isFinita()=finita || vinta() || player.getCFU() == 0

@@ -13,6 +13,7 @@ open class Stanza(private var nome: String) {
     private val stanzeAdiacenti : MutableMap<Direzioni, Stanza> = mutableMapOf()
     var oggettisbloccanti = mutableListOf<Attrezzo>()
     var direzzioniBloccate = mutableListOf<Direzioni>()
+    private var visitata=false
     companion object {
         private var personaggio: AbstractPersonaggio? =null
     }
@@ -30,7 +31,7 @@ open class Stanza(private var nome: String) {
     fun getStanzaAdiacente(direzione : String) : Stanza? {
         val direzioni=direzione.uppercase()
         try{
-            if(stanzeAdiacenti.containsKey(Direzioni.valueOf(direzioni)))
+            if(getDirezioni().contains(Direzioni.upperValuteOf(direzioni)) && stanzeAdiacenti.containsKey(Direzioni.valueOf(direzioni)))
             return stanzeAdiacenti[Direzioni.valueOf(direzioni)]
         }catch(_: IllegalArgumentException){println("non esiste nessuna direzione di nome $direzioni")}
         return null
@@ -39,6 +40,8 @@ open class Stanza(private var nome: String) {
     fun setPersonaggio(p:AbstractPersonaggio){ personaggio=p}
     fun getNumeroAttrezzi()=this.attrezzi.size
     fun getNome()=this.nome
+    fun setVisitata(chek:Boolean){this.visitata=chek}
+    fun getVisitata()=this.visitata
     fun getNumeroStanzeAdiacenti()=this.stanzeAdiacenti.size
     fun getListaDiAttrezzi()=this.attrezzi
     fun hasAttrezzo(attrezzo:String)=this.attrezzi.contains(this.getAttrezzo(attrezzo))

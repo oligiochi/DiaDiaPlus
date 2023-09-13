@@ -34,8 +34,11 @@ class Borsa(private val pesoMax: Int){
         }
     }
     fun removeAttrezzo(attrezzo:String): Attrezzo? {
-        if(getAttrezzo(attrezzo)!=null)
+        if(getAttrezzo(attrezzo)!=null){
+            peso-=getAttrezzo(attrezzo)!!.getPeso()
             return this.attrezzi.removeAt(this.attrezzi.indexOf(getAttrezzo(attrezzo)))
+        }
+
         return null
     }
     fun pesoInRelazione()="($peso Kg/$pesoMax Kg)"
